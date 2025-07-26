@@ -1,0 +1,126 @@
+body{
+
+    height: 100vh;
+}
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 100%;
+    gap: 20px;
+}
+.card{
+    background-color: #dadada;
+    padding: 20px;
+    border-radius: 10px;
+}
+#img{
+    width: 247px;
+    height: 247px;
+}
+.add{
+    text-align: center;
+    margin: 50px 0;
+}
+.add a{
+    color: white;
+    background-color: #007bff;
+    padding: 15px 30px;
+    border-radius: 10px;
+    font-weight: 600;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/* start form-input */
+a{
+    text-decoration: none;
+}
+.container{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.form-input{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 65%;
+    background-color: #dadada;
+    border-radius: 20px;
+}
+.container-input{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    text-align: center;
+    
+}
+.links{
+    display: flex;
+    gap: 100px;
+}
+@media (max-width: 676px){
+    .links{
+        gap: 10px;
+    }
+    input{
+    padding: 0 20px;
+    }
+    .form-input{
+        width: 95%;
+    }
+}
+.links a{
+    color: white;
+    background-color: #007bff;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.links button{
+    border: none;
+    color: white;
+    background-color: #007bff;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+input{
+    border: none;
+    border-radius: 15px;
+    height: 30px;
+    outline: none;
+    padding: 0 60px;
+}
+textarea{
+    border: none;
+    border-radius: 15px;
+    outline: none;
+    padding: 0 60px;
+    border: solid 1px #007bff;
+}
+label{
+    margin-bottom: 5px;
+    
+}
+select{
+    border: none;
+    border-radius: 15px;
+    margin-top: 7px;
+    outline: none;
+    padding: 10px;
+}
+
+
+
+/* end form-input */
+
